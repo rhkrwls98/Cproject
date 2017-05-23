@@ -1,0 +1,17 @@
+﻿Build started 2017-05-18 오후 8:22:48.
+     1>Project "C:\Users\human-003\documents\visual studio 2010\Projects\01start\02start\02start.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\02start.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\human-003\documents\visual studio 2010\Projects\01start\Debug\02start.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\02start.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\human-003\documents\visual studio 2010\Projects\01start\Debug\02start.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\human-003\documents\visual studio 2010\Projects\01start\Debug\02start.lib" /MACHINE:X86 Debug\02start.exe.embed.manifest.res
+         Debug\01.obj
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\Users\human-003\documents\visual studio 2010\Projects\01start\02start\02start.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.04

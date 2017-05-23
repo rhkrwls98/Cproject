@@ -1,0 +1,20 @@
+﻿Build started 2017-05-23 오후 6:42:21.
+     1>Project "C:\Users\human-003\Documents\Visual Studio 2010\Projects\01start\02start\02start.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\02start.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 01.cpp
+         01.cpp
+     1>01.cpp(32): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>01.cpp(43): warning C4138: '*/' found outside of comment
+     1>01.cpp(44): error C2062: type 'int' unexpected
+     1>01.cpp(45): error C2143: syntax error : missing ';' before '{'
+     1>01.cpp(45): error C2447: '{' : missing function header (old-style formal list?)
+     1>01.cpp(59): warning C4138: '*/' found outside of comment
+     1>01.cpp(109): fatal error C1004: unexpected end-of-file found
+     1>Done Building Project "C:\Users\human-003\Documents\Visual Studio 2010\Projects\01start\02start\02start.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06
