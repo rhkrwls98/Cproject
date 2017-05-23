@@ -107,3 +107,51 @@ int inputvalue(char*str){//외부함수 inputvalue() 정의 매개변수 char*str 사용
 	}
 	return value;//value값을 반환
 }*/
+#include<stdio.h>
+int input(int x);
+void output(int line);
+int main()
+{
+ int a=0;
+ a=input(a);
+ output(a);
+}
+int input(int x)
+{
+ printf("입력하세요:");
+ scanf("%d",&x);
+ return x;
+}
+void output(int line)
+{
+ int a=line*2, b=5,k=0,i=0,j=0;//정수형 변수 a,i,j,k를0 b를5로 초기화
+ for(k=1; k<=2; k++){//k를 1로 초기화 2이상이될때까지 반복하며 1주당 1씩 k값증가(총 회전수 제어) 1번 for문
+ for(i=1; i<10; i++){//i를 1로 초기화 10보다 작지 않을때까지 반복하며 1주당 1씩 i값증가(d1*d2중 d2값) 2번 for문
+  for( j=b-3; j<=b; j++){//j를 b-3으로 초기화 b보다 작지 않을때까지 반복하며 1주당 1씩 i값증가(d1*d2중 d1값)3번 for문
+    printf("%d*%d=%2d ",j,i,i*j);//d1의 j d2의 i d3의 i*j값을 출력
+  }//3번끝
+  printf("\n");//3번 반복 종료후 엔터
+ }//2번끝
+ printf("\n"); b=9;//2번 반복 종료후 엔터후 b를 9로 초기화 
+ }//1번끝
+ for(i=0; i<line; i++){//i를 1로 초기화하고 line이상이 될때까지 반복실행 1씩 증산
+  a-=2; 
+  for(j=line-i; j<=line; ++j){//j를 j-i로 초기화하고 line보다 작지 않을때까지 반복실행 1씩 증산 
+   printf("*");//별찍기
+  }
+  for(k=0; k<=a; k++){
+   printf(" ");
+  }
+  for(j=line-i; j<=line; ++j){//j를 j-i로 초기화하고 line보다 작지 않을때까지 반복실행 1씩 증산 
+   printf("*");//별찍기
+  }
+ printf("\n");//별찍은 후 엔터
+ }
+ for(i=1; i<line; i++){
+	 for(j=2; j<i; j++){
+		 if(i%j==0){break;}
+	 }
+	 if(i==j){printf("%2d ",i);}
+	}
+ printf("\n");
+ }
