@@ -23,7 +23,7 @@ int main()
 }*/
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 void main()
 {
 	int line=0,res=0;
@@ -97,6 +97,7 @@ int main()//메인 함수 실행
 	printf("a value-%d",a);//a의 값을 출력
 	return 0;
 }
+printf("");
 int inputvalue(char*str){//외부함수 inputvalue() 정의 매개변수 char*str 사용
 	int res=0,value; //변수 선언
 	printf("%s",str); //매개변수에서 받은 주소값에 저장된 문자열 출력
